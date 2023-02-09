@@ -4,5 +4,7 @@
 }
 
 .connexion {
-    
+    margin : 100px;
+    text-align: center;
+    border: solid blue; 
 }
