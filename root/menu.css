@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#nav {
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(219,0,0,1) 19%, rgba(184,0,0,1) 48%, rgba(151,0,0,1) 74%, rgba(118,0,0,1) 100%);
+}
+
+.main-list-menu {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.list-menu{
+    float: left;
+    
+}
+.accueil {
+    margin-left: 20px;
+}
+.member {
+    float:right;
+    margin-right: 20px;
+}
+.list-menu a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    display: block;
+    color: #FF006F;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+.list-menu a:hover{
+    transition: .2s;
+    color: #4A62FF;
+    background-color: #281713;
+}
+.list-menu a:not(:hover) {
+    transition: .2s;
+}
+
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    cursor: default;
+}
+.logo a img {
+    margin-top: 5px;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}

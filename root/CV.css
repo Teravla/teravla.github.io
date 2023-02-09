@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #FFE6D9;
+    font-family: 'Roboto Slab', serif;
+}
+ul {
+    line-height: 150%;
+}
+li {
+    padding-left: 5px;
+}
+
+#CV-main {
+    margin: 100px 200px 0 200px; 
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title-inside {
+    margin: 10px auto;
+}
+#title h1 {
+    color: #008BE4;
+    font-size: 50px;
+}
+#title h2 {
+    color: #008BE4;
+    font-size: 35px;
+}
+#title h3 {
+    color: #0082FF;
+    font-size: 20px;
+    font-style: italic;
+}
+#title a {
+    color: #0082FF;
+}
+
+#CV-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-column-gap: 10px;
+    grid-row-gap: 80px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.section {
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.section:hover {
+    transition: .5s;
+    background-color: #FFBCD9;
+}
+.section:hover .text-title-deux{
+    transition: 2s;
+    border-bottom: solid 4px #0082FF;
+    border-top: solid 4px #0082FF;
+}
+.section:hover .ballet {
+    color: #0082FF;
+    transition: 2s;
+    text-decoration: underline dotted #0082FF;
+    text-underline-offset: 5px;
+}
+.section:not(:hover) .text-title-deux{
+    transition: .5s;
+}
+.section:not(:hover) {
+    transition: .5s;
+}
+.projet {
+    margin-top: 110px;
+}
+
+.title-deux {
+    padding: 10px 0 0 40px;
+    color: #FF0000;
+    font-size: larger;
+}
+.text-title-deux {
+    width: fit-content;
+    border: solid 4px transparent;
+    border-radius: 5px;
+}
+.langues {
+    margin-top: 70px;
+}
+
+.title-trois {
+    padding: 20px 20px 0px 20px;
+    font-size: large;
+    color: #28161C;
+}
+.title-trois-cyber {
+    padding-bottom: 10px;
+}
+
+.date{
+    padding: 0 0 10px 30px;
+    font-style: italic;
+}
+.ballet {
+    padding: 5px 0 5px 50px;
+}
+
+
+.liste-alpha {
+    padding: 10px 10px 10px 40px;
+}
+.liste-comp-un {
+    list-style-type: "\01F4AA";
+}
+.liste-comp-deux {
+    list-style-type: "\2328 \FE0F";
+    
+}
+
+
+
+#liste-title {
+    font-weight: none;
+    color: #FF006F;
+}
+
+#liste-danse {
+    list-style-type: "\01F57A \01F3FB";
+}
+
+#liste-comp-deux {
+    padding-left: 30px;
+}
+
+#liste-dist {
+    list-style-type: "\01F393";
+}
+#liste-strong-dist {
+    font-style: italic;
+    color: rgba(255 0 111 / .5);
+}
+
+#liste-langue {
+    list-style-type: "\01F3F4";
+}
+
+#liste-cert {
+    list-style-type: "\01F4DC";
+}
+#liste-cert a {
+    color: #28161C;
+    text-decoration: underline; 
+}
+#liste-cert a:hover {
+    transition: .2s;
+    color: blue;
+    text-decoration: underline; 
+}
+#liste-cert a:not(:hover) {
+    transition: .2s;
+}

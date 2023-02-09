@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFE6D9;
+    font-family: 'Roboto Slab', serif;
+}
+
+.projet-tetris {
+    margin: 100px;
+    text-align: center;
+}
+.projet-tetris:hover {
+    transition: .5s;
+    border-radius: 50px;
+    background: #FFE6D9;
+    box-shadow:  10px -10px 20px #ebd4c8,
+                -10px 10px 20px #fff8ea;   
+}
+.projet-tetris:not(:hover){
+    transition: 5s;
+}
+.projet-tetris:hover h1 strong {
+    transition: .7s;
+    color: #0082FF;
+}
+.projet-tetris:hover p a {
+    transition: .7s;
+    text-decoration: underline dotted #0082FF;
+}
+.projet-tetris:not(:hover) h1 strong {
+    transition: 5s;
+}
+
+
+.projet-tetris h1 {
+    margin: 50px;
+    display: inline-block;
+}
+.projet-tetris p {
+    padding: 50px;
+}
+.projet-tetris p a {
+    color: #FF006F;
+    text-underline-offset: 3px;
+    text-decoration: underline dotted #FF006F;
+}
+.projet-tetris h1 strong {
+    font-weight: none;    
+}
