@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    background-color: #FFE6D9;
+    font-family: 'Roboto Slab', serif;
+}
+
 .connexion {
     margin : 100px;
     text-align: center;
